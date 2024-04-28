@@ -1,0 +1,10 @@
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+
+.App {
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: lightblue;
+}

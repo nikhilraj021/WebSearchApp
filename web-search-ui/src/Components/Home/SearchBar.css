@@ -1,0 +1,30 @@
+input[type="search"]{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+input[type="search"]:focus {
+    outline: none;
+}
+
+.search-bar {
+    display: flex;
+    width: 100%;
+    margin-bottom: 16px;
+    justify-content: center;
+}
+
+svg {
+    margin-left: -24px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 769px) {
+    input[type="search"] {
+        width: 500px;
+        justify-self: center;
+        margin-left: 2px;
+    }
+}

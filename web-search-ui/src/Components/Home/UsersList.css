@@ -1,0 +1,9 @@
+.table-wrapper {
+    overflow: auto;
+    width: 100%;
+    border-radius: 15px;
+}
+.table-wrapper table th{
+    background: grey;
+    color:white;
+}
